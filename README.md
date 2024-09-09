@@ -2,7 +2,7 @@
 
 Este es un proyecto desarrollado en el marco del programa de 42 Barcelona. La meta fue crear una pequeña réplica de la shell de Linux, utilizando el lenguaje de programación C, y manejando procesos para la ejecución de los comandos. El proyecto simula muchas de las funcionalidades básicas de la terminal, incluyendo pipes, redirecciones y comandos built-in.
 
-#Características del proyecto 🚀
+## Características del proyecto 🚀
 
 Nuestra implementación de Minishell incluye las siguientes funcionalidades clave:
 
