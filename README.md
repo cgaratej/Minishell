@@ -1,4 +1,4 @@
-#Minishell 🐚
+# Minishell 🐚
 
 Este es un proyecto desarrollado en el marco del programa de 42 Barcelona. La meta fue crear una pequeña réplica de la shell de Linux, utilizando el lenguaje de programación C, y manejando procesos para la ejecución de los comandos. El proyecto simula muchas de las funcionalidades básicas de la terminal, incluyendo pipes, redirecciones y comandos built-in.
 
@@ -26,7 +26,7 @@ Nuestra implementación de Minishell incluye las siguientes funcionalidades clav
   - `env`
   - `exit`
 
-#Requisitos 📋
+## Requisitos 📋
 
 Para ejecutar este proyecto necesitas tener instalado:
 
@@ -34,7 +34,7 @@ Para ejecutar este proyecto necesitas tener instalado:
   - GNU Make para compilar con el Makefile.
   - Sistema operativo basado en Unix.
 
-#Instalación y Uso 💻
+## Instalación y Uso 💻
 
 Clona este repositorio:
 ~~~
@@ -53,7 +53,7 @@ Para limpiar los archivos compilados:
 
 `make fclean`
 
-#Uso de comandos 📝
+## Uso de comandos 📝
 
 Puedes utilizar comandos comunes como ls, pwd, cd, así como los built-ins implementados.
 Soporte para variables de entorno como `$USER` y `$?`.
@@ -63,16 +63,9 @@ Ejemplo de uso:
 
 `ls -l | grep minishell > output.txt`
 
-#Créditos 👥
+## Créditos 👥
 
 Este proyecto fue desarrollado en conjunto por:
 
   Camilo Andres Garatejo Moreno
   Xavier Roca Pérez
-
-#Recursos adicionales 📚
-
-Si te interesa saber más sobre cómo funciona una shell o cómo fue implementada, te dejo algunos recursos útiles:
-
-    Documentación sobre shells en Linux
-    Referencia en C
